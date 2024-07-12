@@ -4,6 +4,7 @@ const Booking = require('../models/bookingModel');
 const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
 
+// Added this to the view route
 exports.alerts = (req, res, next) => {
   const { alert } = req.query;
   if (alert === 'booking')

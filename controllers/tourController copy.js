@@ -12,7 +12,7 @@ exports.getAllTours = async (req, res) => {
     // Build the query
     // 1A) Filtering
     request_parameters = req.query;
-    console.log(request_parameters);
+    // console.log(request_parameters);
 
     // destructure query object to get key, value pairs
     const queryObj = { ...request_parameters };
